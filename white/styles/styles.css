@@ -1,0 +1,524 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #000;
+}
+
+input:focus::-webkit-input-placeholder { color: transparent !important; }
+input:focus:-moz-placeholder { color: transparent !important; }
+
+@font-face {
+  font-family: 'Days';
+  src: url('../fonts/Days.otf');
+}
+
+.fontesttest {
+	font-family: 'Days', sans-serif;
+}
+
+img{
+	border: 0px;
+}
+
+.clear{
+	clear: both;
+}
+
+.wrap940{
+	width: 940px;
+	margin: auto;
+}
+
+input:focus{
+	outline: 0;
+}
+
+.triangles_wrap{
+	background: url('../images/background.png');
+	background-position: center top;
+	background-repeat: repeat-x;
+	height: 861px;
+	z-index: 10;
+	position: relative;
+}
+
+.triangles_wrap .circle{
+	background: url('../images/circle.png');
+	background-repeat: no-repeat;
+	background-position: center 330px;
+}
+
+.floor{
+	background: url('../images/huge_floor.jpg');
+	position: relative;
+	top: -17px;
+	z-index: 5;
+	height: 275px;
+	background-position: center top;
+}
+
+.logo{
+	background: url('../images/logo.png');
+	width: 245px;
+	height: 94px;
+	float: left;
+	margin-top: 15px;
+}
+
+.logo .text{
+	width: 150px;
+	margin-left: 105px;
+	margin-top: 40px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400px;
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+
+.phone_wrap{
+	float: right;
+}
+
+.phone_wrap .phone{
+	font-family: 'Days', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 35px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.phone_wrap .phone span{
+	font-family: 'Days', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 20px;
+	text-align: right;
+}
+
+.phone_wrap .slogan{
+	font-family: 'Days', sans-serif;
+	font-weight: 400;
+	color: #000;	
+	font-size: 13px;
+}
+
+.phone_wrap .button{
+	background: url('../images/callback_button.png');
+	background-position: 0px 0px;
+	width: 194px;
+	height: 40px;
+	margin-top: 6px;
+	float: right;
+	cursor: pointer;
+}
+
+.phone_wrap .button:hover{
+	background: url('../images/callback_button.png');
+	background-position: 0px -44px;
+}
+
+.phone_wrap .button:active{
+	background: url('../images/callback_button.png');
+	background-position: 0px -88px;
+}
+
+.triangles_wrap .sep{
+	background: url('../images/separator.png');
+	width: 507px;
+	height: 54px;
+	margin: auto;
+}
+
+.headline1{
+	background: url('../images/text+ribbon.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 197px;
+	margin: auto;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+
+.wrapper{
+	
+}
+
+.wrapper .left{
+	background: url('../images/couch_form.png');
+	width: 315px;
+	height: 491px;
+	float: left;
+}
+
+.wrapper .left .title{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 22px;
+	padding-top: 180px;
+	margin-left: 30px;
+}
+
+.wrapper .left .text{
+	font-family: arial;
+	font-weight: 400;
+	color: #000;
+	font-size: 13px;
+	padding-top: 15px;
+	margin-left: 30px;
+	font-style: italic;
+	line-height: 17px;
+	width: 255px;
+}
+
+
+.wrapper .left .text span{
+	font-family: arial;
+	font-weight: 700;
+	color: #000;
+	font-size: 13px;
+	font-style: normal;
+}
+
+
+.wrapper .right{
+	width: 301px;
+	float: right;
+	margin-top: 15px;
+}
+
+
+.wrapper .formbg{
+	background: url('../images/main_form.png');
+	width: 315px;
+	height: 317px;
+}
+
+.wrapper .inner{
+	margin-left: 30px;
+	padding-top: 10px;
+}
+
+.wrapper .right .timer{
+	background: url('../images/timer_form.png');
+	height: 136px;
+	width: 315px;
+	margin-top: 5px;
+}
+
+.wrapper .formbg .title{
+	font-family: 'Days', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: normal;
+	color: #fdffe5;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.wrapper .formbg .title span{
+	font-family: 'Days', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: normal;
+	color: #f28900;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.wrapper .formbg .input{
+	width: 255px;
+	height: 45px;
+	background: url('../images/input.png');
+	margin-top: 10px;
+}
+
+.wrapper .formbg .input input{
+	padding: 10px 15px;
+	font-family: 'Days', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	background: transparent;
+	border: 0px;
+}
+
+.wrapper .formbg .button_wrap{
+	margin-top: 10px;
+	height: 60px;
+	text-align: center;
+}
+
+.wrapper .formbg .button{
+	background: url('../images/main_button.png');
+	background-position: 0px 0px;
+	width: 263px;
+	height: 55px;
+	margin-left: -4px;
+	cursor: pointer;
+}
+
+.wrapper .formbg .button:hover{
+	background-position: 0px -60px;
+}
+
+.wrapper .formbg .button:active{
+	background-position: 0px -120px;
+}
+
+.wrapper .formbg .warning{
+	color: #cfcfcf;
+	font: 11px arial;
+	text-align: center;
+	width: 250px;
+}
+
+.timer .hours{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 45px;
+	margin-left: 30px;
+	float: left;
+	letter-spacing: 19px;
+}
+
+.timer .minutes{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 45px;
+	margin-left: 12px;
+	float: left;
+	letter-spacing: 19px;
+}
+
+.timer .seconds{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 45px;
+	margin-left: 12px;
+	float: left;
+	letter-spacing: 19px;
+}
+
+.floor .wrap940 .block{
+	width: 300px;
+	float: left;
+	margin-top: 40px;
+}
+
+.floor .wrap940 .block .icon{
+	text-align: center;
+}
+
+.floor .wrap940 .block .text_icon{
+	text-align: center;
+	margin-top: -40px;
+}
+
+.bottom{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 250px;
+	margin: auto;
+}
+
+.bottom .bmlogo{
+	float: left;
+	width: 20px;
+}
+
+.bottom .text{
+	float: left;
+	width: 200px;
+	font: 12px arial;
+	color: #fff;
+	padding-top: 3px;
+}
+
+.bottom .text a{
+	font: 12px arial;
+	color: #fff;
+}
+
+
+
+
+
+
+
+/* POP UP FORM */
+
+.popup_form{
+	width: 350px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+
+    z-index: 100;
+    position: fixed;
+    background: #ffffff;
+    display: none;
+    
+    left: 50%;
+    top: 50%;
+    margin-left: -235px;
+    margin-top: -160px;
+
+    border-radius: 15px;
+    
+}
+
+.popup_form_input{
+	width: 317px;
+	margin: auto;
+}
+
+.popup_form_input input{
+	background: #fff;
+	border: 1px solid #b3b3b3;
+	padding: 10px;
+	width: 297px;
+	font-family: 'PT Sans', serif;
+	font-size: 19px;
+	color: #474747;
+	margin: auto;
+	margin-bottom: 7px;
+	font-weight: 700;
+}
+
+
+.popup_form_button{
+	background: url('../images/lightbox_button.png');
+	background-position: 0px 0px;
+	width: 325px;
+	height: 60px;
+	margin: auto;
+	cursor: pointer;
+}
+
+.popup_form_button:hover{
+	background-position: 0px -60px;
+}
+
+.popup_form_button:active{
+	background-position: 0px -120px;
+}
+
+.popup_form_title{
+	font-family: 'PT Sans', serif;
+	font-size: 34px;
+	color: #000;
+	width: 317px;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+.popup_form_sent{
+	font-family: 'PT Sans', serif;
+	font-size: 22px;
+	color: #000;
+	display: none;
+	text-align: center;
+}
+
+.form_sent{
+	font-family: 'PT Sans', serif;
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 25px;
+	display: none;
+	text-align: center;
+	margin-top: 25px;
+}
+
+#content_div{
+	display: none;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	opacity: 1;
+	background: none;
+}
+
+.fixed{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	cursor: pointer;
+	z-index: 98;
+}
+
+.closer{
+	background: url('../images/closer.png');
+	width: 49px;
+	height: 49px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: 135px;
+	margin-top: -185px;
+	display: none;
+	z-index: 102;
+	cursor: pointer;
+}
+
+.form_sent_1{
+	text-align: center;	
+	font-family: 'Days', serif;
+	font-size: 15px;
+	color: #fff;
+	display: none;
+	padding-top: 5px;
+	width: 255px;
+}
+
+.form_sent_2{
+	text-align: center;	
+	font-family: 'PT Sans', serif;
+	font-size: 20px;
+	color: #fff;
+	display: none;
+}
+
+.form_sent_3{
+	text-align: center;	
+	font-family: 'PT Sans', serif;
+	font-size: 20px;
+	color: #fff;
+	display: none;
+}
+
+input.wrong::-webkit-input-placeholder{
+	color: #aa0000 !important;
+}
+
+input.wrong:-moz-placeholder{
+	color: #aa0000 !important;
+}

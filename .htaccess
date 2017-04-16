@@ -1,0 +1,6 @@
+
+RewriteEngine On
+DirectoryIndex index.php index.htm index.html
+RewriteRule ^1$ / [L,R]
+RewriteRule ^2$ / [L,R]
+RewriteRule ^3$ / [L,R]
